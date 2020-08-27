@@ -1,5 +1,6 @@
 package modul2.tipeTipeClasses
 
+
 //enum merupakan kumpulan objek yang didefinisikan menjadi tipe data constant
 enum class Gender{
     Pria, Wanita
@@ -36,9 +37,12 @@ enum class Userss(val field: String){
 
 }
 
+
 fun main(){
     Userss.NAME.println()
     Userss.EMAIL.println()
     Userss.PHONE.println()
+
+    println(enumValues<modul2.tipeTipeClasses.Gender>().joinToString { it.name })
 
 }

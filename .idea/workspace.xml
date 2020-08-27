@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f469289d-cca4-44d1-95b4-f478d2dfddd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/modul2/tipeTipeClasses/enumClasses.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/modul2/tipeTipeClasses/nestedClasses.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/modul2/tipeTipeClasses/sealedClass.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -11,6 +10,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/META-INF/Kotlin-Android-Developer-Expert.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/META-INF/Kotlin-Android-Developer-Expert.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/modul2/tipeTipeClasses/EnumClassesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/modul2/tipeTipeClasses/EnumClassesKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/modul2/tipeTipeClasses/Gender.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/modul2/tipeTipeClasses/Gender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/modul2/tipeTipeClasses/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/modul2/tipeTipeClasses/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/modul2/tipeTipeClasses/Userss$EMAIL.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/modul2/tipeTipeClasses/Userss$EMAIL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/modul2/tipeTipeClasses/Userss$NAME.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/modul2/tipeTipeClasses/Userss$NAME.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/modul2/tipeTipeClasses/Userss$PHONE.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/modul2/tipeTipeClasses/Userss$PHONE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/modul2/tipeTipeClasses/Userss.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/modul2/tipeTipeClasses/Userss.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
@@ -80,6 +86,7 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/modul2/tipeTipeClasses/enumClasses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/modul2/tipeTipeClasses/enumClasses.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +128,7 @@
       <recent name="D:\Github\Kotlin-Android-Developer-Expert\src\main\kotlin\modul1\basicType" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.EnumClassesKt">
+  <component name="RunManager" selected="Kotlin.SealedClassKt">
     <configuration name="EnumClassesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-Android-Developer-Expert.main" />
       <option name="VM_PARAMETERS" />
@@ -161,14 +168,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="SealedClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-Android-Developer-Expert.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="modul1.variabledanProperties.RepeatKt" />
+      <option name="MAIN_CLASS_NAME" value="modul2.tipeTipeClasses.SealedClassKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -189,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SealedClassKt" />
         <item itemvalue="Kotlin.EnumClassesKt" />
         <item itemvalue="Kotlin.NestedClassesKt" />
         <item itemvalue="Kotlin.MemahamiAbstractKt" />
         <item itemvalue="Kotlin.WhileLoopsKt" />
-        <item itemvalue="Kotlin.RepeatKt" />
       </list>
     </recent_temporary>
   </component>
@@ -219,30 +226,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="441" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1598095991059" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1598189199511">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1598520629297">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1598189199511" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598097690003" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1598189199511">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1598520629297" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598200761283" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1598520629296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1598189199511" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598097690003" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1598189199511">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1598520629296" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598200761283" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1598520629296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1598189199511" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598097690003" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1598189199511">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1598520629296" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598200761282" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1598520629297">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1598189199511" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598097690003" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1598186995564">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1598520629297" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598200761283" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1598519987275">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1598186995564" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1598519987275" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1598084238634" />
   </component>
 </project>
