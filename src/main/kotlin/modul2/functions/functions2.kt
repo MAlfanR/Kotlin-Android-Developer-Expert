@@ -21,7 +21,7 @@ fun sum (vararg angka: Int): Int{
 }
 fun main(){
     introduce("Alfan", "Belitang")
-    x(city="Lampung")
+    x( city="Lampung")
 
     println(sum(1,2,3,4,5))
 }
